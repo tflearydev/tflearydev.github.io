@@ -30,6 +30,7 @@ div {
   margin-left: 400px;
 }
 
+
 ul {
   font-size: 20px;
 }
@@ -42,10 +43,18 @@ ul {
   height: 500px
 }
 
-.font-weight-light {
+/* .font-weight-light {
   text-align: left;
   color: white;
   height: 75px;
+} */
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
 }
 
 .masthead {
@@ -59,22 +68,41 @@ ul {
 }
 
 .font-weight-light {
-  text-align: left;
+  text-align: center;
+  height: 75px;
   margin-bottom: 50px;
   margin-left: 30px;
-  font-size: 100px;
-  font-weight: bold;
+  font-size: 15vw;
+  /* font-weight: bold; */
+  margin-top: 100px;
   color: green;
   font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (min-width: 40em){
+  .font-weight-light{
+      text-align: left;
+      margin-top: 0;
+      font-size: 9vw;
+  }
+}
+
+
 .lead {
-  text-align: left;
-  margin-left: 90px;
+  text-align: center;
+  margin-left: 60px;
   color: black;
-  margin-bottom: 125px;
+  /* margin-bottom: 50px; */
   font-family: 'Roboto';
-  
+  font-size: 4vw;
+}
+
+@media screen and (min-width: 48em){
+  .lead{
+      text-align: left;
+      font-size: 2vw;
+      
+  }
 }
 
 .container {
