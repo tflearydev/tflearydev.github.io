@@ -6,6 +6,10 @@ h1 {
     margin-top: 30px;
 }
 
+section {
+  background-color: white;
+}
+
 body {
   background-color: #e3e7ed;
 }
@@ -57,7 +61,7 @@ ul {
 .font-weight-light {
   text-align: left;
   margin-bottom: 50px;
-  margin-left: 50px;
+  margin-left: 30px;
   font-size: 100px;
   font-weight: bold;
   color: green;
@@ -66,9 +70,10 @@ ul {
 
 .lead {
   text-align: left;
-  margin-left: 110px;
+  margin-left: 90px;
   color: black;
   margin-bottom: 125px;
+  font-family: 'Roboto';
   
 }
 
