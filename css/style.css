@@ -10,6 +10,10 @@ section {
   background-color: white;
 }
 
+.img-responsive {
+  margin-bottom: 30px;
+}
+
 body {
   background-color: #e3e7ed;
 }
@@ -64,7 +68,12 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+ 
   /* text-align: left; */
+}
+
+.me {
+  margin: 0;
 }
 
 .font-weight-light {
