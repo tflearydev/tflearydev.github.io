@@ -182,24 +182,6 @@ li {
   }
 }
 
-/* @media screen and (min-width: 40em){
-  .fa-envelope-square {
-     margin-right: 20vw;
-  }
-}
-
-@media screen and (min-width: 40em){
-  .fa-github-square {
-     margin-right: 70px;
-  }
-} */
-
-
-
-
-
-
-
 /* 
 .card-text {
   text-align: center;
@@ -216,8 +198,6 @@ h2 {
 .navbar-nav {
   margin-left: 400px;
 }
-
-
 
 
 .nav-item {
