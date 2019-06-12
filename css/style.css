@@ -1,24 +1,215 @@
 h1 {
-    color: black;
-    font-weight: bold;
-    font-size: 42px;
-    text-align: center;
-    margin-top: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 30px;
 }
 
-section {
+.firstsec {
   background-color: white;
-  height: 90vh;
+  height: cover;
 
+}
+
+.services {
+  background-color: grey;
+}
+
+.skillz {
+  text-decoration: underline;
+
+}
+
+/* 
+.about-flex {
+  display: ;
+  
+} */
+
+@media screen and (min-width: 70em) {
+  .about-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+
+
+
+.image-and-location-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 7vw;
+}
+
+@media screen and (min-width: 40em) {
+  .image-and-location-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+/* @media screen and (min-width: 70em){
+  .about-me-text{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+} */
+
+
+
+.about-me-text,
+li {
+  font-family: 'Oswald', sans-serif;
+}
+
+li {
+  font-size: .8rem;
+  margin-right: 90px;
+  margin-left: 80px;
+  white-space: nowrap;
+  /* list-style-type: none; */
+}
+
+.about-me-text {
+  /* margin-left: 4vw;
+  margin-top: 7vh;
+  margin-right: 12vw;
+  margin-bottom: 8vh;
+  font-size: 1.1vw; */
+  margin-left: 2vw;
+  margin-right: 2vw;
+  text-align: left;
+  font-size: 2vw;
+}
+
+@media screen and (min-width: 70em) {
+  .about-me-text {
+    margin-left: 3vw;
+    margin-top: 7vh;
+    margin-right: 12vw;
+    margin-bottom: 8vh;
+    font-size: 1.1vw;
+  }
 }
 
 .img-responsive {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-left: 0;
 }
 
-body {
-  background-color: #e3e7ed;
+.social {
+  margin-top: 15px;
 }
+
+
+
+
+
+.services {
+  background-color: white;
+}
+
+.portfolio {
+  background-color: #e3e7ed;
+
+}
+
+.benefit {
+  /* width: 17%; */
+  margin: 2%;
+  /*thickness of margin, since left right bottom and top arent mentioned then its all the same*/
+  margin-top: 35px;
+  display: inline-block;
+  /*this makes icons and text under stack side by side the others, may need this for the startup rocket app*/
+  text-align: center;
+  vertical-align: top;
+  /*makes sure services icons are aligned vertically at top, meaning top of vertical columns are aligned horizontally(at tiop)*/
+}
+
+/* #benefit1 {
+    margin-left: 3vw;
+} */
+
+.brainicon {
+  background: #9ecc3c;
+  border-radius: 20%;
+  display: inline-block;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+@media screen and (min-width: 60em) {
+  .benefit {
+    text-align: center;
+    display: inline-block;
+    width: 17%;
+    margin-top: 35px;
+    margin: 1%;
+    vertical-align: top;
+  }
+}
+
+
+
+.contact {
+  background-color: whitesmoke;
+  background-size: cover;
+}
+
+.center {
+  text-align: center;
+}
+
+.fas,
+.fab {
+  display: inline-block;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+/* .fa-twitter-square {
+  margin-left: 0px;
+} */
+
+.webdev {
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 60em) {
+  .webdev {
+    text-align: center;
+  }
+}
+
+/* @media screen and (min-width: 40em){
+  .fa-envelope-square {
+     margin-right: 20vw;
+  }
+}
+
+@media screen and (min-width: 40em){
+  .fa-github-square {
+     margin-right: 70px;
+  }
+} */
+
+
+
+
+
+
+
 /* 
 .card-text {
   text-align: center;
@@ -37,12 +228,12 @@ h2 {
 }
 
 
-ul {
-  font-size: 20px;
-}
+
 
 .nav-item {
-  margin-left: 55px;
+  margin-left: 60px;
+  font-size: 20px;
+  margin-right: 15px;
 }
 
 .jumbotron {
@@ -60,29 +251,38 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .masthead {
   height: 99vh;
   min-height: 500px;
-  background-image: linear-gradient(0deg,rgb(69, 62, 62, 0.6),rgb(69, 62, 62, 0.6)),url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-image: linear-gradient(0deg, rgb(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../portlogo.png');
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-  
-    /* min-height:100%;
+  box-shadow: 0 0 15px black;
+
+
+  /* min-height:100%;
     background:linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url(http://lorempixel.com/800/600/nature/2);
     background-size:cover;
     } */
-  
- 
+
+
   /* text-align: left; */
 }
 
 .me {
-  margin: 0;
+  margin-top: 0px;
 }
+
+/* .about-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+/* pu above in media query */
 
 .font-weight-light {
   text-align: center;
@@ -91,18 +291,19 @@ body {
   /* margin-left: 30px; */
   font-size: 16vw;
   /* font-weight: bold; */
-  margin-top: 20px;
-  color: white;
+  margin-top: 70px;
+  color: whitesmoke;
+  /* box-shadow: 0 0 30px black; */
   font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (min-width: 40em){
-  .font-weight-light{
-      text-align: center;
-      /* margin-top: 20px; */
-      font-size: 12vw;
-      margin-bottom: 120px;
-      /* margin-left: 30px; */
+@media screen and (min-width: 50em) {
+  .font-weight-light {
+    text-align: center;
+    /* margin-top: 20px; */
+    font-size: 12vw;
+    margin-bottom: 120px;
+    /* margin-left: 30px; */
   }
 }
 
@@ -116,14 +317,14 @@ body {
   font-size: 4vw;
 }
 
-@media screen and (min-width: 40em){
-  .lead{
-      text-align: center;
-      font-size: 4vw;
-      /* margin-top: 40px; */
-      /* margin-left: 60px; */
-      
-      
+@media screen and (min-width: 40em) {
+  .lead {
+    text-align: center;
+    font-size: 4vw;
+    /* margin-top: 40px; */
+    /* margin-left: 60px; */
+
+
   }
 }
 
@@ -132,10 +333,19 @@ body {
 }
 
 .rounded-circle {
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 30px;
+  /* margin-top: 20px;
   height: 40vh;
-  width: 25vw;
+  width: 27vw; */
+}
+
+@media screen and (min-width: 60em) {
+  .rounded-circle {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 40vh;
+    width: 27vw;
+  }
 }
 
 .hr2 {
@@ -144,36 +354,49 @@ body {
 }
 
 .hr1 {
-  margin-left: 30px;
-  
+  margin-left: 15vw;
+  align-items: center;
+
+}
+
+@media screen and (min-width: 70em) {
+  .hr1 {
+    margin-left: 100px;
+    /* margin-top: 40px; */
+    /* margin-left: 60px; */
+
+
+  }
 }
 
 
 
-.education1 {
+/* .education1 {
   margin-left: 17px;
-}
-
+} */
+/* 
 .education2 {
   margin-left: 100px;
-}
-
-.education1, .education2 {
-  font-size: 1vw;
-}
+} */
 
 #overlay {
-  position: fixed; /* Sit on top of the page content */
+  position: fixed;
+  /* Sit on top of the page content */
   /* display: none; Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0; 
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+  /* Add a pointer on hover */
 }
 
 /* .aboutme {
@@ -182,7 +405,18 @@ body {
 
 .card {
   text-align: center;
-  
+  /* justify-content: space-evenly;   */
+}
+
+footer {
+  /* font-family: 'Oswald', cursive; */
+  font-size: 2vw;
+  text-align: center;
+  margin: 10px;
+  color: whitesmoke;
+  background-color: black;
+  margin: 0;
+  box-shadow: 0 0 11px black;
 }
 
 /* .card-deck {
@@ -198,4 +432,3 @@ body {
   margin-right: 100px;
   margin-top: 10px;
 } */
-
