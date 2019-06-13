@@ -225,8 +225,9 @@ body {
 }
 
 .masthead {
-  height: 99vh;
-  min-height: 500px;
+  
+  height: 80vh;
+  min-height: 300px;
   background-image: linear-gradient(0deg, rgb(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../portlogo.png');
   background-size: cover;
   background-position: center center;
@@ -235,7 +236,18 @@ body {
 
 }
 
-  
+@media screen and (min-width: 60em) {
+  .masthead {
+    height: 99vh;
+  min-height: 500px;
+  background-image: linear-gradient(0deg, rgb(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../portlogo.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 15px black;
+  }
+}
+
 
 
   /* min-height:100%;
