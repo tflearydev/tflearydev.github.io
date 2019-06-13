@@ -183,13 +183,18 @@ li {
 
 .webdev {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 @media screen and (min-width: 60em) {
   .webdev {
     text-align: center;
   }
+}
+
+.quote {
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 /* 
@@ -241,17 +246,18 @@ h2 {
 
 .masthead {
   
-  height: 99vh;
-  min-height: 500px;
+  height: 80vh;
+  min-height: 300px;
   background-image: linear-gradient(0deg, rgb(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../portlogo.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   box-shadow: 0 0 15px black;
+  background-attachment: scroll;
 
 }
 
-/* @media screen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .masthead {
     height: 99vh;
   min-height: 500px;
@@ -261,7 +267,7 @@ h2 {
   background-repeat: no-repeat;
   box-shadow: 0 0 15px black;
   }
-} */
+}
 
 
 
@@ -395,7 +401,7 @@ h2 {
 } */
 
 .card {
-  width: 23rem;
+  width: 22rem;
   text-align: center;
   /* justify-content: space-evenly;   */
 }
