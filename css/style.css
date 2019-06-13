@@ -206,7 +206,15 @@ h2 {
 } */
 
 .navbar-nav {
-  margin-left: 300px;
+ 
+  align-items: center;
+}
+
+@media screen and (min-width: 50em) {
+  .navbar-nav {
+    margin-left: 400px;
+   
+  }
 }
 
 
@@ -395,8 +403,19 @@ h2 {
 } */
 
 .card {
+  width: 25rem;
   text-align: center;
   /* justify-content: space-evenly;   */
+}
+
+@media screen and (min-width: 50em) {
+  .card {
+    text-align: center;
+    width: 30rem;
+    /* margin-top: 40px; */
+    /* margin-left: 60px; */
+
+  }
 }
 
 footer {
