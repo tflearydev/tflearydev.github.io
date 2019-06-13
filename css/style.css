@@ -237,23 +237,17 @@ h2 {
   height: 500px
 }
 
-/* .font-weight-light {
-  text-align: left;
-  color: white;
-  height: 75px;
-} */
-
 
 .masthead {
   
-  height: 80vh;
+  height: 40vh;
   min-height: 300px;
   background-image: linear-gradient(0deg, rgb(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../portlogo.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   box-shadow: 0 0 15px black;
-  background-attachment: scroll;
+  
 
 }
 
@@ -282,7 +276,7 @@ h2 {
   } */
 /* pu above in media query */
 
-.font-weight-light {
+.headname {
   text-align: center;
   height: 75px;
   margin-bottom: 50px;
@@ -296,7 +290,7 @@ h2 {
 }
 
 @media screen and (min-width: 50em) {
-  .font-weight-light {
+  .headname {
     text-align: center;
     /* margin-top: 20px; */
     font-size: 12vw;
