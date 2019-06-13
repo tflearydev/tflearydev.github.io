@@ -207,7 +207,8 @@ h2 {
 
 .navbar-nav {
  
-  align-items: center;
+  margin-left: 50px;
+
 }
 
 @media screen and (min-width: 50em) {
