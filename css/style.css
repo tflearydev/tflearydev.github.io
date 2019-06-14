@@ -296,7 +296,7 @@ h2 {
   margin-top: 70px;
   color: whitesmoke;
   /* box-shadow: 0 0 30px black; */
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (min-width: 50em) {
@@ -305,7 +305,7 @@ h2 {
     /* margin-top: 20px; */
     font-size: 12vw;
     margin-bottom: 120px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     /* margin-left: 30px; */
   }
 }
