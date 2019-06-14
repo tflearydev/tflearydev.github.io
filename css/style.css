@@ -183,7 +183,7 @@ li {
 
 .webdev {
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 60em) {
@@ -193,8 +193,18 @@ li {
 }
 
 .quote {
+  text-align: center;
   margin-left: 3px;
   margin-right: 3px;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 60em) {
+  .quote {
+    text-align: center;
+    margin-left: 3px;
+  margin-right: 3px;
+  }
 }
 
 /* 
@@ -212,7 +222,7 @@ h2 {
 
 .navbar-nav {
  
-  margin-left: 220px;
+  margin-left: 200px;
 
 }
 
@@ -279,7 +289,7 @@ h2 {
 .headname {
   text-align: center;
   height: 75px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   /* margin-left: 30px; */
   font-size: 16vw;
   /* font-weight: bold; */
@@ -295,6 +305,7 @@ h2 {
     /* margin-top: 20px; */
     font-size: 12vw;
     margin-bottom: 120px;
+    font-family: 'Roboto', sans-serif;
     /* margin-left: 30px; */
   }
 }
@@ -306,7 +317,7 @@ h2 {
   color: white;
   /* margin-bottom: 50px; */
   font-family: 'Roboto';
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 @media screen and (min-width: 40em) {
@@ -315,6 +326,7 @@ h2 {
     font-size: 4vw;
     /* margin-top: 40px; */
     /* margin-left: 60px; */
+    font-family: 'Roboto';
 
 
   }
@@ -343,7 +355,19 @@ h2 {
 .hr2 {
   height: 3px;
   background-color: green;
+  margin-bottom: 55px;
 }
+
+@media screen and (min-width: 30em) {
+  .hr2 {
+
+    /* margin-left: 30px; */
+    height: 3px;
+  background-color: green;
+  }
+}
+
+
 
 .hr1 {
   margin-left: 15vw;
@@ -395,7 +419,7 @@ h2 {
 } */
 
 .card {
-  width: 22rem;
+  width: 20rem;
   text-align: center;
   /* justify-content: space-evenly;   */
 }
