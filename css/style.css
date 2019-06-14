@@ -8,7 +8,7 @@ html, body {
   -webkit-overflow-scrolling: touch;
 }
 
-h1 {
+.me, .porttitle, .serviceshead, .lego {
   color: black;
   font-weight: bold;
   font-size: 42px;
@@ -250,7 +250,7 @@ h2 {
 
 .masthead {
   
-  height: 80vh;
+  height: 85vh;
   min-height: 300px;
   background: -webkit-linear-gradient(0deg, rgb(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../portlogo.png');
   background-size: cover;
@@ -296,7 +296,7 @@ h2 {
   margin-top: 70px;
   color: whitesmoke;
   /* box-shadow: 0 0 30px black; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
 }
 
 @media screen and (min-width: 50em) {
@@ -305,7 +305,7 @@ h2 {
     /* margin-top: 20px; */
     font-size: 12vw;
     margin-bottom: 120px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     /* margin-left: 30px; */
   }
 }
