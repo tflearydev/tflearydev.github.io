@@ -173,13 +173,13 @@ li {
   margin-left: 4vw;
   margin-right: 4vw;
   text-align: left;
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 @media screen and (min-width: 50em) {
   .about-me-text {
     margin-left: 4vw;
-    margin-top: 7vh;
+    margin-top: 5.6vh;
     margin-right: 9vw;
     margin-bottom: 8vh;
     font-size: 1.2vw;
