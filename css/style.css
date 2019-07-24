@@ -217,9 +217,9 @@ li {
   /*makes sure services icons are aligned vertically at top, meaning top of vertical columns are aligned horizontally(at tiop)*/
 }
 
-/* #benefit1 {
-    margin-left: 3vw;
-} */
+#benefit1 {
+    margin-left: 20px;
+}
 
 .brainicon {
   background: #9ecc3c;
