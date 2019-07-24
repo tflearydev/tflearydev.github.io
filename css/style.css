@@ -218,8 +218,15 @@ li {
 }
 
 #benefit1 {
-    margin-left: 20px;
+    margin-left: 0px;
 }
+
+@media screen and (min-width: 60em) {
+  #benefit1 {
+    margin-left: 27px;
+  }
+}
+
 
 .brainicon {
   background: #9ecc3c;
