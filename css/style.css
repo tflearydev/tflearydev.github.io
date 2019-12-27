@@ -320,6 +320,9 @@ h2 {
   }
 }
 
+.nav-item:hover {
+  color: green !important;
+}
 
 
 
