@@ -320,7 +320,7 @@ h2 {
   }
 }
 
-.nav-item:hover {
+.nav-link:hover {
   color: green !important;
 }
 
@@ -479,4 +479,55 @@ footer {
     box-shadow: 0 0 11px black;
 
   }
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none !important;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #555;
+}
+
+.nl1 {
+  background-color: #f8f9fa !important;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px greenyellow, 0 0 60px greenyellow, 0 0 70px greenyellow;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px green, 0 0 40px greenyellow, 0 0 50px green, 0 0 60px greenyellow, 0 0 70px greenyellow, 0 0 80px greenyellow;
+  }
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
 }
