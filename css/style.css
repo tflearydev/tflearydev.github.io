@@ -311,16 +311,16 @@ h2 {
 
 .navbar-nav {
  
-  margin-left: 200px;
+  float: right !important;
 
 }
 
-@media screen and (min-width: 50em) {
+/* @media screen and (min-width: 50em) {
   .navbar-nav {
     margin-left: 400px;
    
   }
-}
+} */
 
 .nav-link:hover {
   color: green !important;
