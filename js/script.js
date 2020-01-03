@@ -21,4 +21,6 @@ function change_text() {
       x.innerHTML = '<span class="glow">Click To Open Portfolio</span>';
     }
   }
+
+ 
   
