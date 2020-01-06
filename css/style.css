@@ -334,6 +334,24 @@ h2 {
   margin-right: 15px;
 }
 
+@media screen and (max-width: 1200px) {
+  .nav-item, .navbar-nav {
+    text-align: center;
+    float: none !important;
+   
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .nav-item {
+    margin-left: 0px;
+    margin-right: 0px;
+   
+  }
+}
+
+
 
 .jumbotron {
   height: 500px
