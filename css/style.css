@@ -561,6 +561,7 @@ footer {
   position: absolute;
   top: 30%;
   position: fixed;
+  z-index: 999;
 
 }
 
