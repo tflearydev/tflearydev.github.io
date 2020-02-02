@@ -1,3 +1,4 @@
+//collapseable portfolio section
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
