@@ -78,6 +78,10 @@ html, body {
     font-style:italic;
 }
 
+.fa-5x {
+  margin: 10px;
+}
+
 @media screen and (min-width: 40em) {
   .lead {
     text-align: center;
