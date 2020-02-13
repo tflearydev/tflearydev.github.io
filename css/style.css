@@ -281,6 +281,8 @@ li {
 .webdev {
   text-align: center;
   font-size: 14px;
+  font-weight: 700;
+  
 }
 
 @media screen and (min-width: 60em) {
@@ -296,6 +298,8 @@ li {
   margin-left: 3px;
   margin-right: 3px;
   font-size: 17px;
+  margin-bottom: 50px;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 60em) {
@@ -303,6 +307,7 @@ li {
     text-align: center;
     margin-left: 3px;
   margin-right: 3px;
+  font-weight: 700
   }
 }
 
@@ -331,6 +336,9 @@ h2 {
    
   }
 } */
+.nav-link {
+  font-weight: 700
+}
 
 .nav-link:hover {
   color: green !important;
