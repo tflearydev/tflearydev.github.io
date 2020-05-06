@@ -5,8 +5,8 @@ Quick portfolio site built out to showcase some of my projects, bio, consulting 
 
 ## Technologies Used:
 ____
-* HTML 
-* CSS, Bootstrap, Animations
+* HTML5 
+* CSS3, SCSS, Bootstrap, Animations
 * JavaScript, jQuery
 
 
