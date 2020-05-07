@@ -16449,6 +16449,10 @@ BLog Details Styles
   }
 }
 
+.about-area {
+  padding-top: 70px !important
+}
+
 .about-inner .section-title h2.title {
   margin-bottom: 8px;
 }
