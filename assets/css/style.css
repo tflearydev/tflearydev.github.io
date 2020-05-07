@@ -16682,6 +16682,12 @@ BLog Details Styles
   width: 100%;
 }
 
+@media screen and (min-width: 1200px) {
+  .related-work .thumb a img {
+    height: 375px !important;
+  }
+}
+
 .related-work .inner {
   padding-top: 25px;
 }
