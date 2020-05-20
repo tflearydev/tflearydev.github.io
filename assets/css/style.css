@@ -11419,7 +11419,11 @@ Footer Style Two
 }
 
 .portfolio .thumbnail.image-4 {
-  background-image: url(../../seller.png);
+  background-image: url(../../mm.png);
+}
+
+.portfolio .thumbnail.image-99 {
+  background-image: url(../../sellnew2.png);
 }
 
 .portfolio .thumbnail.image-5 {
@@ -11432,6 +11436,11 @@ Footer Style Two
 
 .portfolio .thumbnail.image-7 {
   background-image: url(../../sellnew.png);
+}
+
+
+.portfolio .thumbnail.image-111 {
+  background-image: url(../../sellnewpic2.png);
 }
 
 .portfolio .thumbnail.image-8 {
@@ -11486,7 +11495,11 @@ Footer Style Two
 }
 
 .portfolio .bg-blr-image.image-4 {
-  background-image: url(../../seller.png);
+  background-image: url(../../mm.png);
+}
+
+.portfolio .bg-blr-image.image-99 {
+  background-image: url(../../salenew2.png);
 }
 
 .portfolio .bg-blr-image.image-5 {
@@ -11700,7 +11713,11 @@ Footer Style Two
 }
 
 .portfolio-tilthover .portfolio .thumbnail.image-4 {
-  background-image: url(../../seller.png);
+  background-image: url(../../mm.png);
+}
+
+.portfolio-tilthover .portfolio .thumbnail.image-99 {
+  background-image: url(../../salenew2.png);
 }
 
 .portfolio-tilthover .portfolio .thumbnail.image-5 {
@@ -11778,7 +11795,11 @@ Footer Style Two
 }
 
 .portfolio-tilthover .portfolio .bg-blr-image.image-4 {
-  background-image: url(../../seller.png);
+  background-image: url(../../mm.png);
+}
+
+.portfolio-tilthover .portfolio .bg-blr-image.image-99 {
+  background-image: url(../../sellnew2.png);
 }
 
 .portfolio-tilthover .portfolio .bg-blr-image.image-5 {
