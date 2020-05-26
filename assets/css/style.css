@@ -11426,6 +11426,10 @@ Footer Style Two
   background-image: url(../../sellnew2.png);
 }
 
+.portfolio .thumbnail.image-100 {
+  background-image: url(../../eoe1.png);
+}
+
 .portfolio .thumbnail.image-5 {
   background-image: url(../../port.png);
 }
@@ -11501,6 +11505,12 @@ Footer Style Two
 .portfolio .bg-blr-image.image-99 {
   background-image: url(../../salenew2.png);
 }
+
+.portfolio .bg-blr-image.image-100 {
+ background-image: url(../../eoe1.png);
+}
+
+
 
 .portfolio .bg-blr-image.image-5 {
   background-image: url(../../port.png);
@@ -11720,6 +11730,11 @@ Footer Style Two
   background-image: url(../../salenew2.png);
 }
 
+.portfolio-tilthover .portfolio .thumbnail.image-100 {
+  background-image: url(../../eoe1.png);
+}
+
+
 .portfolio-tilthover .portfolio .thumbnail.image-5 {
   background-image: url(../../port.png);
 }
@@ -11800,6 +11815,10 @@ Footer Style Two
 
 .portfolio-tilthover .portfolio .bg-blr-image.image-99 {
   background-image: url(../../sellnew2.png);
+}
+
+.portfolio-tilthover .portfolio .bg-blr-image.image-100 {
+  background-image: url(../../eoe1.png);
 }
 
 .portfolio-tilthover .portfolio .bg-blr-image.image-5 {
