@@ -9721,6 +9721,13 @@ img.react-parallax-bgimage {
   transition: 0.3s;
 }
 
+@media screen and (min-width:420px) {
+  .ll2 {
+    display: none
+  }
+}
+
+
 .header-area.header--sticky .header-wrapper .logo a img {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
