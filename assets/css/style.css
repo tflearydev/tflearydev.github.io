@@ -9707,7 +9707,7 @@ img.react-parallax-bgimage {
 
 @media only screen and (max-width: 767px) {
   .header-area.header--sticky {
-    padding-left: 30px;
+    padding-left: 10px;
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
