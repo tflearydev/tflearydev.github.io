@@ -148,7 +148,6 @@ li {
   margin-right: 90px;
   margin-left: 80px;
   white-space: nowrap;
-  /* list-style-type: none; */
 }
 
 .about-me-text {
@@ -288,31 +287,14 @@ li {
   }
 }
 
-/* 
-.card-text {
-  text-align: center;
-} */
-
 h2 {
   text-align: center;
 }
 
-/* div { 
-  text-align: center; 
-} */
-
 .navbar-nav {
- 
   float: right !important;
-
 }
 
-/* @media screen and (min-width: 50em) {
-  .navbar-nav {
-    margin-left: 400px;
-   
-  }
-} */
 .nav-link {
   font-weight: 700
 }
