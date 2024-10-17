@@ -1,6 +1,4 @@
 html, body {
-  /* width: 100%;
-  height: 100%; */
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
@@ -11,7 +9,6 @@ html, body {
 .masthead {
   
   height: 82vh;
-  /* min-height: 300px; */
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(69, 62, 62, 0.6)), to(rgb(69, 62, 62, 0.6))), url('../assets/portlogo.png');
   background-image: -webkit-linear-gradient(bottom, rgb(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../assets/portlogo.png');
   background-image: -o-linear-gradient(bottom, rgb(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../assets/portlogo.png');
@@ -26,7 +23,6 @@ html, body {
 
 @media screen and (min-width: 60em) {
   .masthead {
-
   height: 95vh;
   min-height: 500px;
   background-image: linear-gradient(0deg, rgba(69, 62, 62, 0.6), rgb(69, 62, 62, 0.6)), url('../assets/portlogo.png');
@@ -43,12 +39,9 @@ html, body {
   text-align: center;
   height: 75px;
   margin-bottom: 40px;
-  /* margin-left: 30px; */
   font-size: 16vw;
-  /* font-weight: bold; */
   margin-top: 70px;
   color: whitesmoke;
-  /* box-shadow: 0 0 30px black; */
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-style:italic;
@@ -57,11 +50,9 @@ html, body {
 @media screen and (min-width: 50em) {
   .headname {
     text-align: center;
-    /* margin-top: 20px; */
     font-size: 12vw;
     margin-bottom: 120px;
     font-family: 'Roboto', sans-serif;
-    /* margin-left: 30px; */
     font-weight: bold;
     font-style:italic;
   }
