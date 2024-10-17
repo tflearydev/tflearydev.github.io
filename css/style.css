@@ -138,15 +138,6 @@ html, body {
 }
 
 
-/* @media screen and (min-width: 70em){
-  .about-me-text{
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
-} */
-
-
 .about-me-text,
 li {
   font-family: 'Oswald', sans-serif;
@@ -161,11 +152,6 @@ li {
 }
 
 .about-me-text {
-  /* margin-left: 4vw;
-  margin-top: 7vh;
-  margin-right: 12vw;
-  margin-bottom: 8vh;
-  font-size: 1.1vw; */
   margin-left: 4vw;
   margin-right: 4vw;
   text-align: left;
